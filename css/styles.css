@@ -1,0 +1,399 @@
+.uzonsection {
+ width: 90%;
+}
+
+.oculto{
+float: left;
+margin-bottom: 40px;
+}
+
+.uzonstore{
+float: left;
+width:100%;
+}.uzonwidth400{
+float:left;width:400px;}
+.uzoncurrency{
+float: left;
+width:100%;margin-top: 10px;margin-bottom: 10px;
+}
+
+.color{
+float: left;
+margin-top:7%;
+width:100%;
+}
+
+.uzonshow {
+  float: right;
+  width: 50%;
+  margin-right: 10%;
+}
+
+.ali {
+  float: left !important;
+}
+
+.inline {
+ display:inline-block;
+}
+
+.width20{
+width : 20%;
+}
+
+.width60{
+width: 60%;
+}
+
+.width35{
+width:35%;
+}
+
+.uzonproducts  {
+ float:left;
+ height: 240px !important;
+ width: 50%;
+}
+
+textarea {
+    line-height: 1.4;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    width: 100%;
+}
+
+.h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+.explain {
+  width: 100%;
+  float: left;
+  font-size: 12px;
+  line-height: 16px;
+  color: #777;
+}
+
+.textcurrency {
+  width: 12%;
+  float: left;
+}
+
+.textposition {
+  width: 320px;
+  float: left;
+}
+
+.inputcurrency{
+  float: left;
+  margin-top: 12px;
+  margin-right: 40px;
+}
+
+.textgraph {
+  width: 270px;
+  float: left;
+}
+
+.inputgraph {
+  float: left;
+  margin: 12px;
+  margin-left: 0px;
+}
+
+.textsize {
+  width: 20%;
+  float: left;
+}
+
+.inputsize {
+  width: 75px;
+  margin-top: 12px;
+  margin-right: 40px;
+  float: left;  
+}
+
+.size{
+margin-bottom: 20px;
+}
+
+.graph{
+  padding: 2px;
+  line-height: 28px;
+  height: 28px;
+  width: 15% !important;
+  vertical-align: middle;
+  margin-bottom: 25px;
+}
+
+.wp-admin select {
+  padding: 2px;
+  line-height: 28px;
+  height: 28px;
+  vertical-align: middle;
+}
+
+.controls {
+  float: left;
+  min-width: 350px;
+  width: 100%;
+}
+
+.controls input[type=text] {
+  width: 75%;
+}
+
+.shortcodes {
+  float: left;
+  min-width: 350px;
+  width: 100%;
+  padding-right: 2%;
+}
+
+.save{
+padding-top:20px;
+}
+
+.separador{
+  border-bottom: 1px solid #ddd;
+  margin-top:30px;
+}
+
+/****** STYLES UPDATEZON GRID ******/
+
+
+
+div.updatezon-item-grid-view {
+    float: left;
+    height: 100%;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    position: relative;
+    text-align: center;
+    width: 185px;
+    margin-right: 5px;
+    border-width: 1px;
+    border-style: solid;    
+}
+
+
+div.updatezon-item-grid-view-image {
+    border:0;
+    height: 100px;
+    margin-bottom: 5px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 10px;
+}
+
+
+
+div.updatezon-item-grid-view-title {
+    border:0;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    width: 100%;
+    height:110px;
+}
+
+
+div.updatezon-item-grid-view-price {
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    color: black;
+    height:28px;
+}
+
+div.updatezon-item-grid-view-old-price{
+    font-size: 12px;    
+    color: red;
+    font-weight:bold;
+    text-decoration: line-through;
+}
+
+div.updatezon-item-grid-view-date {
+    border:0;
+    font-size: 9px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    height:14px;
+}
+
+
+div.updatezon-item-grid-view-link {
+    border:0;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+
+div.updatezon-item-grid-view-title a {
+    color: rgb(34, 34, 34);
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+}
+
+div.updatezon-item-grid-view-image img {
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-width: 1 1 1 1;
+    border:0;
+    height: 100px !important;
+}
+
+div.updatezon-store {
+  font-size: 9px;
+  font-weight: bold;
+}
+
+/******* STYLES UPDATEZON LIST *********/
+
+div.updatezon-products-list-view {
+  border: 1px solid #ccc;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.2);
+  position: relative;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 619px;
+}
+
+div.updatezon-item-list-view {
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  float: left;
+  padding: 10px 0;
+}
+
+div.updatezon-item-list-view-left {
+  float: left;
+  width: 120px;
+}
+
+div.updatezon-item-list-view-right {
+  float: left;
+  width: 488px;
+  padding-left: 10px;
+}
+
+
+
+div.updatezon-item-list-view-image {
+  padding-top: 0px;
+  text-align: center;
+}
+
+div.updatezon-item-list-view-image img {
+  max-height: 125px;
+  max-width: 100px;
+  border: 0;
+}
+
+div.updatezon-item-list-view-title {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 8px;
+  text-align: left;
+  font-weight: bold;
+  width: 475px;
+}
+
+div.updatezon-item-list-view-title a {
+    color: rgb(34, 34, 34);
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+}
+
+div.updatezon-item-list-view-price {
+  font-weight: bold;
+  position: relative;
+  text-align: left;
+  float: left;
+  font-size: 26px;
+  color: black;
+}
+
+div.updatezon-item-list-view-date {
+  font-size: 11px;
+  font-weight: normal;
+  float: left;
+  padding: 4px 0 0 5px;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+
+div.updatezon-item-list-view-desc {
+  font-weight: normal;
+  position: relative;
+  text-align: left;
+  width: 475px;
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+div.updatezon-item-list-view-link {
+  margin-top: 10px;
+  position: relative;
+  width: 475px;
+  text-align: left;
+}
+
+#wpfooter {
+    bottom: 0;
+    color: rgb(119, 119, 119);
+    left: 0;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    position: relative;
+    right: 0;
+}
+
+/******* CHARTS *********/
+
+svg {
+    display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.chart{
+  width: 100%;
+  height: 100%;
+}
